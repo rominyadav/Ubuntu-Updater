@@ -1,0 +1,15 @@
+#!/bin/bash
+
+clear
+echo "
+
+Updating System Repos
+
+"
+sudo apt update
+echo "
+
+Installing Update Packages
+
+"
+sudo apt upgrade
