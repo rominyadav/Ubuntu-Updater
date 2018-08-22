@@ -1,15 +1,18 @@
 #!/bin/bash
-
 clear
 echo "
-
-Updating System Repos
-
+Updating Repositories....
 "
 sudo apt update
+
 echo "
-
-Installing Update Packages
-
+Installing Packages....
 "
 sudo apt upgrade
+
+echo "
+Rebooting Your Machine in 30 sec
+Press Ctl+C to cancle
+"
+sleep 30
+sudo shutdown -h now
